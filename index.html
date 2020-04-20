@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="row">
+            <ul class="main-nav">
+                <li>
+                    <a id="menu-1">ADDITION</a>
+                    <a id="menu-2">SUBSTRACTION</a>
+                    <a id="menu-3">DIVISION</a>
+                    <a id="menu-4">MULTIPLICATION</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="row">
+            <div class="col-lg-6 number-part-card card-1" id="card-1">
+                <h3>Addition Operation</h3>
+                <form action="">
+                <div class="form-group numbers-part" id="card-1">
+                        <input type="text" class="form-control number" id="addnum1" placeholder="Bilangan 1">
+                        <img src="img/plus.png" alt="plus" class="sign-img">
+                        <input type="text" class="form-control  number" id="addnum2"  placeholder="Bilangan 2">
+                        <img src="img/equal.png" alt="plus" class="sign-img">
+                        <input type="text" class="form-control number-result" id="addresult" readonly>
+                    
+                </div>
+                </form>
+                <div class="form-group">
+                    <textarea name="" id="addwords" cols="86" rows="3" readonly></textarea>
+                </div>
+            </div>
+
+            <div class="col-lg-6 number-part-card" id="card-2">
+                <h3>Subtraction Operation</h3>
+                <div class="form-group numbers-part">
+                    <input type="text" class="form-control number" id="subsnum1" placeholder="Bilangan 1">
+                    <img src="img/minus.png" alt="plus" class="sign-img">
+                    <input type="text" class="form-control number" id="subsnum2" placeholder="Bilangan 2">
+                    <img src="img/equal.png" alt="plus" class="sign-img">
+                    <input type="text" class="form-control number-result" id="subsresult" readonly>
+                </div>
+                <div class="form-group">
+                    <textarea name="" id="subswords" cols="86" rows="3" readonly></textarea>
+                </div>
+            </div>
+
+            <div class="col-lg-6  number-part-card" id="card-3">
+                <h3>Division Operation</h3>
+                <div class="form-group  numbers-part">
+                    <input type="text" class="form-control number" id="divnum1" placeholder="Bilangan 1">
+                    <img src="img/divide.png" alt="plus" class="sign-img">
+                    <input type="text" class="form-control number" id="divnum2" placeholder="Bilangan 2">
+                    <img src="img/equal.png" alt="plus" class="sign-img">
+                    <input type="text" class="form-control number-result" id="divresult" readonly>
+                </div>
+                <div class="form-group">
+                    <textarea name="" id="divwords" cols="86" rows="3" readonly></textarea>
+                </div>
+            </div>
+
+            <div class="col-lg-6 number-part-card" id="card-4">
+                <h3>Multiplication Operation</h3>
+                <div class="form-group numbers-part">
+                    <input type="text" class="form-control number" id="multinum1" placeholder="Bilangan 1">
+                    <img src="img/multiplication.png" alt="plus" class="sign-img">
+                    <input type="text" class="form-control number" id="multinum2" placeholder="Bilangan 2">
+                    <img src="img/equal.png" alt="plus" class="sign-img">
+                    <input type="text" class="form-control number-result" id="multiresult" readonly>
+                </div>
+                <div class="form-group">
+                    <textarea name="" id="multiwords" cols="86" rows="3" readonly></textarea>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+</body>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="main.js"></script>
+
+</html>

@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: Tahoma;
+}
+
+.row{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    /* background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3)),url(img/hero.jpg); */
+    background-color: #5B8069;
+    height: 12vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.main-nav{
+    list-style: none;
+    /* float: right;  */
+     /* margin-top:40px ;  */
+    padding-top: 60px;
+    padding-left: 24%;
+    margin-left: 10px; 
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left:20px;
+}
+
+.main-nav li a {
+    color: #F5DEB3;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20px; 
+
+}
+
+.main-nav li a:hover{
+    color: #FFDAB9;
+    border: 2px solid #FFDAB9;
+    transition: all 0.5s ease-in;
+    padding: 15px 20px;
+}
+
+
+.main-nav li a:after{
+    color: #FFDAB9;
+    border: 2px solid #FFDAB9;
+    padding: 15px 20px;
+}
+
+.number-part-card{
+    padding-left: 80px;
+    padding-bottom: 20px;
+}
+
+.number-part-card h3{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.number-part-card h3:after{
+    width: 100px;
+    height: 2px;
+    background-color: darkolivegreen;
+    display: block;
+    content: "";
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.numbers-part{
+    display: inline-flex;
+}
+
+.numbers-part .number{
+    margin-right: 30px;
+    width: 24%;
+    height: 24%;
+    padding: 15px 15px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+.numbers-part .number-result{
+    margin-right: 30px;
+    width: 28%;
+    height: 28%;
+    padding: 15px 15px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sign-img{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: -10px;
+    margin-right: 20px;
+}
+
+
+.features{
+    padding-top: 60px;
+    background-color: #5B8069;
+}
+
+.features #card-1{
+    background-color: #FFADA6;
+}
+
+.features #card-2{
+    background-color: #FFC68C;
+}
+
+.features #card-3{
+    background-color: #A7E880;
+}
+
+.features #card-4{
+    background-color: #A6FFCD;
+}
+
+.features textarea{
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    padding-top: 15px;
+}
+
